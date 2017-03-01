@@ -1,5 +1,5 @@
 <?php
-$dbHost = 'localhost';
-$dbUser = 'root';
+$dbHost = '';
+$dbUser = '';
 $dbPass = '';
-$dbDatabase = 'gameplatform';
+$dbDatabase = '';
