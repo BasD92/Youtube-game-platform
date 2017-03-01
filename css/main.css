@@ -1,0 +1,233 @@
+/* line 9, ../sass/main.sass */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Begin homepage */
+/* line 13, ../sass/main.sass */
+#container {
+  width: 100%;
+  float: left;
+}
+
+/* line 18, ../sass/main.sass */
+#lastVideo {
+  margin-left: 10%;
+  width: 70%;
+  float: left;
+}
+
+/* line 24, ../sass/main.sass */
+#last {
+  width: 50em;
+  height: 20em;
+}
+
+/* line 29, ../sass/main.sass */
+#allCategories {
+  list-style-type: none;
+}
+
+/* line 33, ../sass/main.sass */
+.categoryList {
+  margin-top: 2%;
+    display: block;
+}
+
+/* line 37, ../sass/main.sass */
+#container2 {
+  width: 70%;
+  margin-left: 10%;
+}
+
+/* line 42, ../sass/main.sass */
+#category {
+  width: 50%;
+  float: left;
+}
+
+/* line 47, ../sass/main.sass */
+#thumbnails {
+  width: 50%;
+  float: left;
+}
+
+/* line 52, ../sass/main.sass */
+.thumbnailYoutube {
+  height: 10em;
+  width: 10em;
+  margin-top: 2%;
+  margin-left: 2%;
+  float: left;
+}
+
+/* line 60, ../sass/main.sass */
+#plusButton {
+  float: right;
+  width: 5em;
+  height: 15em;
+  color: white;
+  border: none;
+  background-color: red;
+}
+
+/* End homepage */
+/* Begin add video page */
+/* line 71, ../sass/main.sass */
+#container3 {
+  width: 35%;
+  float: left;
+}
+
+/* line 76, ../sass/main.sass */
+#container4 {
+  width: 65%;
+  float: right;
+}
+
+/* line 81, ../sass/main.sass */
+#container5 {
+  margin-left: 10%;
+}
+
+/* line 85, ../sass/main.sass */
+#findVideo {
+  height: 2.5em;
+  font-size: 1em;
+  margin-top: 2%;
+}
+
+/* line 91, ../sass/main.sass */
+#categoryVideo {
+  height: 2.5em;
+  font-size: 1em;
+  margin-top: 2%;
+}
+
+/* line 97, ../sass/main.sass */
+.submit {
+  color: white;
+  background-color: red;
+  border: none;
+  width: 5em;
+  height: 3em;
+  margin-top: 2%;
+}
+
+/* line 106, ../sass/main.sass */
+#first {
+  width: 33em;
+  height: 20em;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+/* line 113, ../sass/main.sass */
+#otherVideos {
+  width: 80%;
+  margin-top: 5%;
+}
+
+/* line 118, ../sass/main.sass */
+.others {
+  width: 10em;
+  height: 10em;
+  margin-left: 2%;
+}
+
+/* End add video page */
+
+/* Responsive Homepage*/
+@media screen and (max-width: 1000px) {
+
+    #last {
+        width: 40em;
+        height: 15em;
+    }
+
+    .thumbnailYoutube {
+        height: 6em;
+        width: 6em;
+        margin-top: 2%;
+        margin-left: 2%;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    #last {
+        width: 30em;
+        height: 12em;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    #last {
+        width: 25em;
+        height: 10em;
+    }
+
+    #plusButton {
+        float: right;
+        width: 4em;
+        height: 13em;
+        color: white;
+        border: none;
+        background-color: red;
+    }
+
+    .thumbnailYoutube {
+        height: 4em;
+        width: 4em;
+        margin-top: 2%;
+        margin-left: 2%;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 485px) {
+
+    #lastVideo {
+        margin-left: 10%;
+        width: 100%;
+        float: left;
+    }
+
+    #last {
+        width: 20em;
+        height: 10em;
+    }
+
+    .thumbnailYoutube {
+        height: 6em;
+        width: 6em;
+        margin-top: 2%;
+        margin-left: 2%;
+        float: left;
+    }
+}
+
+/* Responsive add page*/
+@media screen and (max-width: 940px) {
+
+    #container3 {
+        width: 100%;
+        float: right;
+        text-align: center;
+    }
+
+    #container4 {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 940px) {
+
+    #first {
+        width: 20em;
+    }
+}
